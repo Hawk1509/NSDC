@@ -1,0 +1,51 @@
+DevOps LifeCycle
+	Plan 
+	Code
+	Build 
+	Test
+	Relaese
+	Deploy
+	Operate
+	Monitor
+
+SDLC Software Development Cycle
+	Definiton
+		SDLC is a structured process used by software developers and design engineers
+	
+	Waterfall Model
+		Definition
+			It is a linear and sequential software develeopmetn process. Each phone must be complete before the next begins
+	
+
+Advantages 
+	flexible and Adaptive to changes
+	continous delivery ensres early prodcut visiblity
+	high customer satisfactiob
+	better risk management
+	
+Disadvantages
+	requries strong team collab
+	not ideal of small and inexperieced teams
+	
+Version Control: system that records chnages to the files overtime so you can recall specific versions later
+				 helps track code changes, collab with teams and revert to previous versions if needed.
+
+types of Version Control:
+	Local version control
+		chnages stored on local system
+		simple database or manual backups
+		limitation: only one person can work
+		
+	Centralised Version Control
+
+		
+Git 																		 Github
+Installed locally												Hosted in cloud
+First Release 2006												company launced 2008
+Maintaind by Linux												Purchased by Microsoft
+Mainly a command line tool										Adminstered via the web
+
+CI: developers push code frequently 
+CD(continous Integration / continous delivery )
+
+jenkins architecture - Jenkins master, Jenkins agent(slave)
