@@ -6,22 +6,19 @@ pipeline {
     }
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/Hawk1509/NSDC.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
+                dir('welcome-react') {
+                    sh 'npm install'
+                }
             }
         }
 
         stage('Build React App') {
             steps {
-                sh 'npm run build'
+                dir('welcome-react') {
+                    sh 'npm run build'
+                }
             }
         }
     }
