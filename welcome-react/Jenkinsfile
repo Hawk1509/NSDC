@@ -1,10 +1,10 @@
 node {
     def IMAGE_NAME = "react-app"
-    def CONTAINER_NAME = "blissful_pascal"
+    def CONTAINER_NAME ="vigilant_ishizaka"
 
     stage('Clone Code') {
         git branch: 'main',
-            url: 'https://github.com/MamthaKSunilkumar/CS8_demo.git'
+            url: 'https://github.com/Hawk1509/NSDC.git'
     }
 
     stage('Build Docker Image') {
