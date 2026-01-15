@@ -49,3 +49,4 @@ CI: developers push code frequently
 CD(continous Integration / continous delivery )
 
 jenkins architecture - Jenkins master, Jenkins agent(slave)
+
